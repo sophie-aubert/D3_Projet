@@ -1,0 +1,31 @@
+{
+  "name": "projet",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@rollup/plugin-dsv": "^3.0.2",
+    "vite": "^4.1.4"
+  },
+  "dependencies": {
+    "d3-array": "^3.2.3",
+    "d3-drag": "^3.0.0",
+    "d3-ease": "^3.0.1",
+    "d3-fetch": "^3.0.1",
+    "d3-geo": "^3.1.0",
+    "d3-geo-graticule": "^0.0.0",
+    "d3-geo-mercator": "^0.0.0",
+    "d3-geo-path": "^0.0.0",
+    "d3-geo-projection": "^4.0.0",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "d3-zoom": "^3.0.0",
+    "topojson": "^3.0.2",
+    "turf": "^3.0.14"
+  }
+}
